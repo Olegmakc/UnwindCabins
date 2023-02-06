@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Website to visit places and book a cabins" />
+	<meta name="keywords" content="travel, cabin, cabins, book a hotel" />
+
+	<link href="https://fonts.googleapis.com/css?family=Poppins:regular,500,600,800&display=swap&_v=20230206110522" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro:700&display=swap&_v=20230206110522" rel="stylesheet" />
+	<link rel="stylesheet" href="css/style.min.css?_v=20230206110522">
+	<title>UnwindCabins</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+	<div class="header__wrapper">
+		<div class="header__container">
+			<a href="#" class="header__logo logo">Unwind<span>Cabins</span></a>
+			<div class="header__menu menu">
+				<nav class="menu__body">
+					<ul class="menu__list">
+						<li class="menu__item"><a href="" data-goto="#catalog" class="menu__link">Our cabins</a></li>
+						<li class="menu__item"><a href="" data-goto="#experiences" class="menu__link">Get inspired</a></li>
+						<li class="menu__item"><a href="" data-goto="#testimonial" class="menu__link">Gift a stay</a></li>
+						<li class="menu__item"><a href="" data-goto="#about" class="menu__link">About us</a></li>
+						<li class="menu__item"><a href="" data-goto="#faq" class="menu__link">FAQ</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="header__actions actions-header">
+				<a href="#" class="actions-header__login _icon-user" aria-label="Login in profile"></a>
+				<button type="button" class="actions-header__burger icon-menu" aria-label="Open menu"><span></span></button>
+			</div>
+		</div>
+	</div>
+</header>
+		<main class="page">
+			<section class="page__main main-block">
+				<div class="main-block__container">
+					<div class="main-block__content">
+						<h1 class="main-block__title title">Leave the office behind and <span>unwind</span></h1>
+						<div class="main-block__text">
+							<p>Welcome to our cozy cabin nestled in the heart of the mountains! Our cabin is the perfect getaway for those seeking peace and relaxation in a natural setting.</p>
+						</div>
+						<div class="main-block__rating rating-main">
+							<div class="rating-main__users">
+								<div class="rating-main__user">
+									<picture><source srcset="img/main-block/01.webp" type="image/webp"><img src="img/main-block/01.jpg" alt="Image"></picture>
+								</div>
+								<div class="rating-main__user">
+									<picture><source srcset="img/main-block/02.webp" type="image/webp"><img src="img/main-block/02.jpg" alt="Image"></picture>
+								</div>
+								<div class="rating-main__user">
+									<picture><source srcset="img/main-block/03.webp" type="image/webp"><img src="img/main-block/03.jpg" alt="Image"></picture>
+								</div>
+								<div class="rating-main__user">
+									<picture><source srcset="img/main-block/04.webp" type="image/webp"><img src="img/main-block/04.jpg" alt="Image"></picture>
+								</div>
+								<div class="rating-main__user">
+									<picture><source srcset="img/main-block/05.webp" type="image/webp"><img src="img/main-block/05.jpg" alt="Image"></picture>
+								</div>
+							</div>
+							<div class="rating-main__logo">
+								<a href="#"><img src="img/icons/trustpilot.svg" alt="Trustpilot"></a>
+							</div>
+							<div class="rating-main__items rating-block">
+								<span class="rating-block__item"></span>
+								<span class="rating-block__item"></span>
+								<span class="rating-block__item"></span>
+								<span class="rating-block__item"></span>
+								<span class="rating-block__item"></span>
+								<div class="rating-block__value">4.5 / 5</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="main-block__image">
+					<picture><source srcset="img/main-block/image.webp" type="image/webp"><img src="img/main-block/image.jpg" fetchpriority="high" alt=""></picture>
+				</div>
+			</section>
+			<div class="page__search main-search">
+				<div class="main-search__container">
+					<form action="#" class="main-search__form">
+						<div class="main-search__destination search-destination">
+							<button data-search-location type="button" class="search-destination__header header-search-destination">
+								<div class="header-search-destination__icon _icon-map"></div>
+								<div class="header-search-destination__body">
+									<span class="header-search-destination__label">I want to go:</span>
+									<div class="header-search-destination__place"></div>
+									<input type="hidden" autocomplete="off" class="header-search-destination__input" value name="destination">
+								</div>
+							</button>
+							<div class="search-destination__body">
+								<div class="search-destination__input-wrapper _icon-search">
+									<input type="text" autocomplete="off" value class="search-destination__input form-input" data-error="" data-required name="form[]" placeholder="Going to">
+								</div>
+								<div class="search-destination__autocomplete ">
+									<h2 class="autocomplete-destination__title">Popular destinations:</h2>
+									<ul class="autocomplete-destination__body">
+										<li class="autocomplete-destination__item">
+											<button type="button" class="autocomplete-destination__button">
+												<div class="autocomplete-destination__icon _icon-location"></div>
+												<div class="autocomplete-destination__body">
+													<div class="autocomplete-destination__place">Atlanta</div>
+													<div class="autocomplete-destination__subtext">Georgia, United States</div>
+												</div>
+											</button>
+										</li>
+										<li class="autocomplete-destination__item">
+											<button type="button" class="autocomplete-destination__button">
+												<div class="autocomplete-destination__icon _icon-location"></div>
+												<div class="autocomplete-destination__body">
+													<div class="autocomplete-destination__place">Kuiv</div>
+													<div class="autocomplete-destination__subtext">Ukraine</div>
+												</div>
+											</button>
+										</li>
+										<li class="autocomplete-destination__item">
+											<button type="button" class="autocomplete-destination__button">
+												<div class="autocomplete-destination__icon _icon-location"></div>
+												<div class="autocomplete-destination__body">
+													<div class="autocomplete-destination__place">San Diego</div>
+													<div class="autocomplete-destination__subtext">California, United States</div>
+												</div>
+											</button>
+										</li>
+										<li class="autocomplete-destination__item">
+											<button type="button" class="autocomplete-destination__button">
+												<div class="autocomplete-destination__icon _icon-location"></div>
+												<div class="autocomplete-destination__body">
+													<div class="autocomplete-destination__place">Las Vegas</div>
+													<div class="autocomplete-destination__subtext">Nevada, United States</div>
+												</div>
+											</button>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div data-date-picker="forward" class="main-search__date date-picker">
+							<button type="button" class="date-picker__button _icon-check-in">
+								<div class="date-picker__label">Check in</div>
+								<div class="date-picker__selected"></div>
+							</button>
+							<div class="date-picker__body">
+								<div class="date-picker__inner">
+									<div class="date-picker__btn-close">X</div>
+									<div class="date-picker__header">
+										<button type="button" class="date-picker__btn date-picker__btn_prev _icon-arrow-right-circle"></button>
+										<div class="date-picker__month"></div>
+										<button type="button" class="date-picker__btn date-picker__btn_next _icon-arrow-right-circle"></button>
+									</div>
+									<table class="date-picker__calendar">
+										<thead>
+											<tr>
+												<th class="date-picker__day-name"><span title="Sunday">S</span></th>
+												<th class="date-picker__day-name"><span title="Monday">M</span></th>
+												<th class="date-picker__day-name"><span title="Tuesday">T</span></th>
+												<th class="date-picker__day-name"><span title="Wednesday">W</span></th>
+												<th class="date-picker__day-name"><span title="Thursday">T</span></th>
+												<th class="date-picker__day-name"><span title="Friday">F</span></th>
+												<th class="date-picker__day-name"><span title="Saturday">S</span></th>
+											</tr>
+										</thead>
+									</table>
+								</div>
+							</div>
+						</div>
+						<div data-date-picker="forward" class="main-search__date date-picker">
+							<button type="button" class="date-picker__button _icon-check-in">
+								<div class="date-picker__label">Check out</div>
+								<div class="date-picker__selected"></div>
+							</button>
+							<div class="date-picker__body">
+								<div class="date-picker__inner">
+									<div class="date-picker__btn-close">X</div>
+									<div class="date-picker__header">
+										<button type="button" class="date-picker__btn date-picker__btn_prev _icon-arrow-right-circle"></button>
+										<div class="date-picker__month"></div>
+										<button type="button" class="date-picker__btn date-picker__btn_next _icon-arrow-right-circle"></button>
+									</div>
+									<table class="date-picker__calendar">
+										<thead>
+											<tr>
+												<th class="date-picker__day-name"><span title="Sunday">S</span></th>
+												<th class="date-picker__day-name"><span title="Monday">M</span></th>
+												<th class="date-picker__day-name"><span title="Tuesday">T</span></th>
+												<th class="date-picker__day-name"><span title="Wednesday">W</span></th>
+												<th class="date-picker__day-name"><span title="Thursday">T</span></th>
+												<th class="date-picker__day-name"><span title="Friday">F</span></th>
+												<th class="date-picker__day-name"><span title="Saturday">S</span></th>
+											</tr>
+										</thead>
+									</table>
+								</div>
+							</div>
+						</div>
+						<div class="main-search__people-quantity people-quantity">
+							<button type="button" class="people-quantity__button">
+								<h3 class="people-quantity__title _icon-travel">Travellers</h3>
+							</button>
+							<div class="people-quantity__body">
+								<div class="people-quantity__close">X</div>
+								<div class="people-quantity__inner">
+									<div class="people-quantity__header">Travellers:</div>
+									<div class="people-quantity__item quantity">
+										<div class="quantity__label">Adults</div>
+										<div class="quantity__body">
+											<button type="button" class="quantity__button">-</button>
+											<input type="text" name="adult-qnt" autocomplete="off" value="1" readonly class="quantity__input"></input>
+											<button type="button" class="quantity__button quantity__button_plus">+</button>
+										</div>
+									</div>
+									<div class="people-quantity__item quantity">
+										<div class="quantity__label">Children <span>Ages 0 to 17</span></div>
+										<div class="quantity__body">
+											<button type="button" class="quantity__button">-</button>
+											<input type="text" name="childred-qnt" autocomplete="off" value="0" readonly class="quantity__input"></input>
+											<button type="button" class="quantity__button quantity__button_plus">+</button>
+										</div>
+									</div>
+									<button type="button" class="people-quantity__done">Done</button>
+								</div>
+							</div>
+						</div>
+						<button type="submit" class="main-search__submit">Find avilable cabins</button>
+					</form>
+				</div>
+			</div>
+			<section id="catalog" class="page__catalog catalog">
+				<div class="catalog__container">
+					<div data-animate="0.8,true" class="catalog__header section-header">
+						<div class="section-header__content">
+							<h2 class="section-header__title">Discover our idyllic countryside cabins</h2>
+							<div class="section-header__text">
+								<p>Fully equipped kitchen and bathroom with plenty of walking and cycling routes to explore.</p>
+							</div>
+						</div>
+						<div class="section-header__actions">
+							<a href="#" class="section-header__link">View all cabins</a>
+						</div>
+					</div>
+					<div class="catalog__items">
+						<article data-animate="0.8,true" data-animate-threshold="0.6,0.8" class="catalog__item item-catalog">
+							<button type="button" class="item-catalog__favorite _icon-favorite" aria-label="add to favorite"></button>
+							<a href="" class="item-catalog__image">
+								<picture><source srcset="img/catalog/01.webp" type="image/webp"><img src="img/catalog/01.jpg" alt="Cabin"></picture>
+							</a>
+							<div class="item-catalog__body">
+								<div class="item-catalog__location">Hampshire · England</div>
+								<div class="item-catalog__info">
+									<h4 class="item-catalog__title"><a href="#" class="item-catalog__title-link">Rustic country retreat</a></h4>
+									<div class="item-catalog__price">£210<span>pp</span></div>
+								</div>
+								<div class="item-catalog__text">
+									<p>Step outside and take in the stunning views. Our cabin sits on a quiet and secluded property, providing the perfect setting for a peaceful retreat.</p>
+								</div>
+								<div data-rating class="item-catalog__rating rating">
+									<div class="rating__body">
+										<div class="rating__active"></div>
+										<div class="rating__items">
+											<input type="radio" class="rating__item" value="1" name="rating">
+											<input type="radio" class="rating__item" value="2" name="rating">
+											<input type="radio" class="rating__item" value="3" name="rating">
+											<input type="radio" class="rating__item" value="4" name="rating">
+											<input type="radio" class="rating__item" value="5" name="rating">
+										</div>
+									</div>
+									<a href="#" class="rating__reviews">82 reviews</a>
+									<div class="rating__value">4</div>
+								</div>
+							</div>
+						</article>
+						<article data-animate="0.8,true" data-animate-threshold="0.6,0.8" class="catalog__item item-catalog">
+							<button type="button" class="item-catalog__favorite _favorite _icon-favorite" aria-label="add to favorite"></button>
+							<a href="" class="item-catalog__image">
+								<picture><source srcset="img/catalog/02.webp" type="image/webp"><img src="img/catalog/02.jpg" alt="Cabin"></picture>
+							</a>
+							<div class="item-catalog__body">
+								<div class="item-catalog__location">Norfolk · England</div>
+								<div class="item-catalog__info">
+									<h4 class="item-catalog__title"><a href="#" class="item-catalog__title-link">Cozy getaway cabin</a></h4>
+									<div class="item-catalog__price">£312<span>pp</span></div>
+								</div>
+								<div class="item-catalog__text">
+									<p>Step outside and take in the stunning views. Our cabin sits on a quiet and secluded property, providing the perfect setting for a peaceful retreat.</p>
+									<p>Discover some of the most beautiful scenery.</p>
+								</div>
+								<div data-rating class="item-catalog__rating rating">
+									<div class="rating__body">
+										<div class="rating__active"></div>
+										<div class="rating__items">
+											<input type="radio" class="rating__item" value="1" name="rating">
+											<input type="radio" class="rating__item" value="2" name="rating">
+											<input type="radio" class="rating__item" value="3" name="rating">
+											<input type="radio" class="rating__item" value="4" name="rating">
+											<input type="radio" class="rating__item" value="5" name="rating">
+										</div>
+									</div>
+									<a href="#" class="rating__reviews">105 reviews</a>
+									<div class="rating__value">5</div>
+								</div>
+							</div>
+						</article>
+						<article data-animate="0.8,true" data-animate-threshold="0.6,0.8" class="catalog__item item-catalog">
+							<button type="button" class="item-catalog__favorite  _icon-favorite" aria-label="add to favorite"></button>
+							<a href="" class="item-catalog__image">
+								<picture><source srcset="img/catalog/03.webp" type="image/webp"><img src="img/catalog/03.jpg" alt="Cabin"></picture>
+							</a>
+							<div class="item-catalog__body">
+								<div class="item-catalog__location">Hampshire · England</div>
+								<div class="item-catalog__info">
+									<h4 class="item-catalog__title"><a href="#" class="item-catalog__title-link">Rustic country retreat</a></h4>
+									<div class="item-catalog__price">£250<span>pp</span></div>
+								</div>
+								<div class="item-catalog__text">
+									<p>Step outside and take in the stunning views. Our cabin sits on a quiet and secluded property, providing the perfect setting for a peaceful retreat.</p>
+								</div>
+								<div data-rating class="item-catalog__rating rating">
+									<div class="rating__body">
+										<div class="rating__active"></div>
+										<div class="rating__items">
+											<input type="radio" class="rating__item" value="1" name="rating">
+											<input type="radio" class="rating__item" value="2" name="rating">
+											<input type="radio" class="rating__item" value="3" name="rating">
+											<input type="radio" class="rating__item" value="4" name="rating">
+											<input type="radio" class="rating__item" value="5" name="rating">
+										</div>
+									</div>
+									<a href="#" class="rating__reviews">105 reviews</a>
+									<div class="rating__value">5</div>
+								</div>
+							</div>
+						</article>
+					</div>
+				</div>
+			</section>
+			<section id="experiences" class="page__experiences experiences">
+				<div class="experiences__container">
+					<div data-animate="0.8,true" class="experiences__header section-header">
+						<div class="section-header__content">
+							<h2 class="section-header__title">Inspiration for your next getaway</h2>
+							<div class="section-header__text">
+								<p>We’ve curated some amazing experiences to help you find your next getaway.</p>
+							</div>
+						</div>
+						<div class="section-header__actions">
+							<a href="#" class="section-header__link">View all experiences</a>
+						</div>
+					</div>
+					<div class="experiences__items">
+						<article data-animate="0.8,true" data-animate-threshold="0.6,0.8" class="experiences__item item-experience">
+							<a href="" class="item-experience__image">
+								<picture><source srcset="img/experiences/01.webp" type="image/webp"><img src="img/experiences/01.jpg" alt="Experiences"></picture>
+							</a>
+							<div class="item-experience__body">
+								<p class="item-experience__label">For those who love</p>
+								<h3 class="item-experience__title"><a href="" class="item-experience__title-link">To Explore nature</a></h3>
+								<div class="item-experience__text">
+									<p>Experience – from the wonders of Snowdonia to the famous beauty of the Scottish Highlands.</p>
+								</div>
+							</div>
+						</article>
+						<article data-animate="0.8,true" data-animate-threshold="0.6,0.8" class="experiences__item item-experience">
+							<a href="" class="item-experience__image">
+								<picture><source srcset="img/experiences/02.webp" type="image/webp"><img src="img/experiences/02.jpg" alt="Experiences"></picture>
+							</a>
+							<div class="item-experience__body">
+								<p class="item-experience__label">For those who want</p>
+								<h3 class="item-experience__title"><a href="" class="item-experience__title-link">To Relax, rest & re-set</a></h3>
+								<div class="item-experience__text">
+									<p>Experience mind and body connection through breathing exercises and relaxation with our Yoga inspired get away for you and the family. </p>
+								</div>
+							</div>
+						</article>
+						<article data-animate="0.8,true" data-animate-threshold="0.6,0.8" class="experiences__item item-experience">
+							<a href="" class="item-experience__image">
+								<picture><source srcset="img/experiences/03.webp" type="image/webp"><img src="img/experiences/03.jpg" alt="Experiences"></picture>
+							</a>
+							<div class="item-experience__body">
+								<p class="item-experience__label">For those who have</p>
+								<h3 class="item-experience__title"><a href="" class="item-experience__title-link">Four-legged friends</a></h3>
+								<div class="item-experience__text">
+									<p>When going on holiday nobody wants to put their dog in a kennel. So, lets keep the family together with our pet friendly cabins.</p>
+								</div>
+							</div>
+						</article>
+					</div>
+				</div>
+			</section>
+			<section id="testimonial" class="page__testimonial testimonial">
+				<div class="testimonial__container">
+					<div class="testimonial__content">
+						<h2 data-animate="0.8,true" class="testimonial__title title">A truly wonderful experience</h2>
+						<div data-animate="0.8,true" class="testimonial__text text">
+							<p>Brilliant for anyone looking to get away from the hustle and bustle of city life or detox from their tech for a few days. I could have stayed another week!.</p>
+							<P>They really have thought about everything here down to the finest details.</P>
+						</div>
+						<div data-animate="0.8,true" class="testimonial__rating rating-block">
+							<span class="rating-block__item"></span>
+							<span class="rating-block__item"></span>
+							<span class="rating-block__item"></span>
+							<span class="rating-block__item"></span>
+							<span class="rating-block__item"></span>
+							<div class="rating-block__value">01 Jan 2023</div>
+						</div>
+					</div>
+				</div>
+				<div class="testimonial__bg">
+					<picture><source srcset="img/testimonial/testimonial.webp" type="image/webp"><img src="img/testimonial/testimonial.jpg" alt="Testimonial"></picture>
+				</div>
+			</section>
+			<section id="about" class="page__about about">
+				<div class="about__container">
+					<div data-animate="0.8,true" class="about__body section-header section-header_one-column">
+						<div class="section-header__content">
+							<h2 class="section-header__title">Get ready to unwind</h2>
+							<div class="section-header__text">
+								<p>A cabin getaway can be a wonderful way to relax and reconnect with nature. Many cabin rentals are located in beautiful, secluded areas, surrounded by trees and other natural beauty.</p>
+								<p>A cabin getaway can be a wonderful way to escape the hustle and bustle of daily life and reconnect with nature.</p>
+							</div>
+						</div>
+						<div class="section-header__actions">
+							<a href="#" class="section-header__link section-header__link_arrow">Learn more</a>
+						</div>
+					</div>
+					<div data-animate="0.8,false" data-animate-threshold="0.4,0.6,0.8" class="about__video video">
+						<div class="video__item">
+							<video poster="" muted preload="metadata">
+								<source src="./files/cabin_video.mp4" type="video/mp4">
+							</video>
+						</div>
+						<div class="video__play _icon-play-btn"></div>
+					</div>
+				</div>
+			</section>
+			<section class="page__find-cobin find-cobin">
+				<div data-animate="0.6,true" class="find-cobin__container">
+					<div data-animate="0.6,true" class="find-cobin__content">
+						<h2 class="find-cobin__title title">Nourish the mind, body, and spirit.</h2>
+						<div class="find-cobin__text text">
+							<p>Many people find that the combination of being in a peaceful natural setting and engaging in activities that nourish the mind, body, and spirit leave them feeling rejuvenated and refreshed.</p>
+						</div>
+						<a href="" class="find-cobin__button button">Find avilable cabins</a>
+					</div>
+					<div class="find-cobin__image">
+						<picture><source srcset="img/find-cabin/image.webp" type="image/webp"><img src="img/find-cabin/image.jpg" alt="Image"></picture>
+					</div>
+				</div>
+			</section>
+			<section id="faq" class="page__fqa fqa">
+				<div class="fqa__container">
+					<h2 class="fqa__title">Frequently asked questions</h2>
+					<div data-spollers class="fqa__items">
+						<div data-animate="0.6,false" class="fqa__item fqa-item">
+							<div class="fqa-item__questions">
+								<div class="fqa-item__label">About Unwind Cabins</div>
+								<ul class="fqa-item__list">
+									<li class="fqa-item__item">How long have you been in business?</li>
+									<li class="fqa-item__item">Why did you start this journey?</li>
+								</ul>
+							</div>
+							<div class="fqa-item__content">
+								<button data-spoller type="button" class="fqa-item__title _icon-arrow-right-circle"><span>About our cabins</span></button>
+								<div class="fqa-item__body">
+									<div class="fqa-item__text text">
+										<p>A cabin getaway can be a wonderful way to relax and reconnect with nature. Many cabin rentals are located in beautiful, secluded areas, surrounded by trees and other natural beauty.</p>
+										<p>A cabin getaway can be a wonderful way to escape the hustle and bustle of daily life and reconnect with nature.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div data-animate="0.6,false" class="fqa__item fqa-item">
+							<div class="fqa-item__questions">
+								<div class="fqa-item__label">Tell me more about the cabin</div>
+								<ul class="fqa-item__list">
+									<li class="fqa-item__item">What do I need to bring?</li>
+									<li class="fqa-item__item">How do I get to the cabin?</li>
+								</ul>
+							</div>
+							<div class="fqa-item__content">
+								<button data-spoller type="button" class="fqa-item__title _icon-arrow-right-circle"><span>Tell me more about the cabin</span></button>
+								<div class="fqa-item__body">
+									<div class="fqa-item__text text">
+										<p>A cabin getaway can be a wonderful way to relax and reconnect with nature. Many cabin rentals are located in beautiful, secluded areas, surrounded by trees and other natural beauty.</p>
+										<p>A cabin getaway can be a wonderful way to escape the hustle and bustle of daily life and reconnect with nature.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div data-animate="0.6,false" class="fqa__item fqa-item">
+							<div class="fqa-item__questions">
+								<div class="fqa-item__label">Pets, family & friends</div>
+								<ul class="fqa-item__list">
+									<li class="fqa-item__item">Please tell me I can bring my dog</li>
+									<li class="fqa-item__item">How many people do you cabins sleep?</li>
+								</ul>
+							</div>
+							<div class="fqa-item__content">
+								<button data-spoller type="button" class="fqa-item__title _icon-arrow-right-circle"><span>Pets, family & friends</span></button>
+								<div class="fqa-item__body">
+									<div class="fqa-item__text text">
+										<p>A cabin getaway can be a wonderful way to relax and reconnect with nature. Many cabin rentals are located in beautiful, secluded areas, surrounded by trees and other natural beauty.</p>
+										<p>A cabin getaway can be a wonderful way to escape the hustle and bustle of daily life and reconnect with nature.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="fqa__also also-fqa">
+						<div class="also-fqa__label">Still have a question?</div>
+						<div class="also-fqa__text text">
+							<p>If you still have questions contact a member of the team on <a href="#" class="also-fqa__link">live chat</a> and we’d be more than happy to help.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section data-animate="0.8,false" class="page__promo promo-section">
+				<div class="promo-section__container">
+					<div data-animate="0.8,true" class="promo-section__content">
+						<h2 class="promo-section__title title">Escape from endless Zoom calls</h2>
+						<div class="promo-section__text text">
+							<p>Discover the wonders of spending time offline and away from the office with our 3 day weekend getaway cabin retreats.</p>
+						</div>
+						<div class="promo-section__actions">
+							<a href="#" class="promo-section__button button_small button_bg-blue">Find the perfect getaway</a>
+						</div>
+					</div>
+				</div>
+				<div class="promo-section__image">
+					<picture><source srcset="img/promo/image.webp" type="image/webp"><img src="img/promo/image.jpg" alt="Image"></picture>
+					<span class="promo-section__decor">
+						<img src="img/promo/decor.svg" alt="Decor">
+					</span>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+	<div class="footer__container">
+		<div data-spollers="767.98,max" class="footer__menu menu-footer">
+			<div class="menu-footer__column">
+				<button data-spoller type="button" class="menu-footer__title footer-title">About us</button>
+				<div class="menu-footer__body">
+					<ul class="menu-footer__list">
+						<li><a href="#" class="menu-footer__link">Our story</a></li>
+						<li><a href="#" class="menu-footer__link">Why us </a></li>
+						<li><a href="#" class="menu-footer__link">How it works</a></li>
+						<li><a href="#" class="menu-footer__link">FAQ</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="menu-footer__column">
+				<button data-spoller type="button" class="menu-footer__title footer-title">Our cabins</button>
+				<div class="menu-footer__body">
+					<div class="menu-footer__wrapper">
+						<ul class="menu-footer__list">
+							<li><a href="#" class="menu-footer__link">North of London</a></li>
+							<li><a href="#" class="menu-footer__link">Golden Hideaway</a></li>
+							<li><a href="#" class="menu-footer__link">Oak Treehouse</a></li>
+							<li><a href="#" class="menu-footer__link">Acacia Retreat</a></li>
+							<li><a href="#" class="menu-footer__link">Blue Lagoon</a></li>
+						</ul>
+						<ul class="menu-footer__list">
+							<li><a href="#" class="menu-footer__link">South of London</a></li>
+							<li><a href="#" class="menu-footer__link">Lavender Retreat</a></li>
+							<li><a href="#" class="menu-footer__link">Butterfly Treehouse</a></li>
+							<li><a href="#" class="menu-footer__link">Mahogany Hideaway </a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="menu-footer__column">
+				<button data-spoller type="button" class="menu-footer__title footer-title">Get inspired</button>
+				<div class="menu-footer__body">
+					<div class="menu-footer__wrapper menu-footer__wrapper_column">
+						<ul class="menu-footer__list">
+							<li><a href="#" class="menu-footer__link">Explore nature</a></li>
+							<li><a href="#" class="menu-footer__link">Hiking trails</a></li>
+							<li><a href="#" class="menu-footer__link">Swimming</a></li>
+							<li><a href="#" class="menu-footer__link">Fishing</a></li>
+							<li><a href="#" class="menu-footer__link">Boating</a></li>
+							<li><a href="#" class="menu-footer__link">Cycling</a></li>
+						</ul>
+						<ul class="menu-footer__list">
+							<li><a href="#" class="menu-footer__link">Rest, relax and re-set</a></li>
+							<li><a href="#" class="menu-footer__link">Spa treatments</a></li>
+							<li><a href="#" class="menu-footer__link">Hot tubs</a></li>
+							<li><a href="#" class="menu-footer__link">Nature Trails</a></li>
+						</ul>
+						<ul class="menu-footer__list">
+							<li><a href="#" class="menu-footer__link">Great food and drink</a></li>
+							<li><a href="#" class="menu-footer__link">Pubs</a></li>
+							<li><a href="#" class="menu-footer__link">Resturants</a></li>
+							<li><a href="#" class="menu-footer__link">Food markets</a></li>
+							<li><a href="#" class="menu-footer__link">Picnics</a></li>
+						</ul>
+						<ul class="menu-footer__list">
+							<li><a href="#" class="menu-footer__link">For you and yours</a></li>
+							<li><a href="#" class="menu-footer__link">Solo or a couple</a></li>
+							<li><a href="#" class="menu-footer__link">Pet friendly</a></li>
+							<li><a href="#" class="menu-footer__link">Accessible cabins</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="menu-footer__column">
+				<button data-spoller type="button" class="menu-footer__title footer-title">Support</button>
+				<div class="menu-footer__body">
+					<ul class="menu-footer__list">
+						<li><a href="#" class="menu-footer__link">Help</a></li>
+						<li><a href="#" class="menu-footer__link">Contact us</a></li>
+						<li><a href="#" class="menu-footer__link">Privacy Policy</a></li>
+						<li><a href="#" class="menu-footer__link">Terms of Service</a></li>
+						<li><a href="#" class="menu-footer__link">Complaints Policy</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer__subscribe subscribe">
+			<div class="subscribe__content">
+				<div class="subscribe__title footer-title">Sign up to our Newsletter</div>
+				<div class="subscribe__text">
+					<p>For a weekly curated collection of 3 things you can watch, read or listen to switch off from the busy everyday.</p>
+				</div>
+			</div>
+			<form action="#" method="get" class="subscribe__form">
+				<div class="subscribe__column">
+					<div class="subscribe__input-wrapper">
+						<input type="text" autocomplete="off" class="subscribe__input form-input" data-error="Please enter correct email" data-required="email" name="email" placeholder="james@thegaintpeach.com">
+					</div>
+				</div>
+				<div class="subscribe__column">
+					<button type="submit" class="subscribe__submit button">Join the mailing list</button>
+				</div>
+			</form>
+		</div>
+		<div class="footer__bottom bottom-footer">
+			<a href="" class="bottom-footer__logo logo logo_footer">Unwind<span>Cabins</span></a>
+			<div class="bottom-footer__copy">© 2023 UnwindCabins</div>
+			<ul class="bottom-footer__socials socials">
+				<li class="socials__item"><a href="" class="socials__link _icon-linkedin" aria-label="linkedin"></a></li>
+				<li class="socials__item"><a href="" class="socials__link _icon-twitter" aria-label="Twitter"></a></li>
+				<li class="socials__item"><a href="" class="socials__link _icon-facebook" aria-label="Facebook"></a></li>
+				<li class="socials__item"><a href="" class="socials__link _icon-instagram" aria-label="Instagram"></a></li>
+				<li class="socials__item"><a href="" class="socials__link _icon-youtube" aria-label="YouTube"></a></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+	</div>
+	<script src="js/app.min.js?_v=20230206110522"></script>
+</body>
+
+</html>
